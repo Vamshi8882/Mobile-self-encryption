@@ -14,6 +14,7 @@ The application is built using Python Tkinter, allowing users to encrypt and dec
 🌐 Fully Offline Operation – no cloud or network dependency
 
 ⚙️ ** Technologies Used **
+
 Technology	Purpose
 Python	Core programming language
 Tkinter	GUI development
@@ -22,22 +23,27 @@ hashlib	SHA-256 hashing
 os & time	File handling and timestamps
 
 🏗 ** System Architecture **
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/380617bb-98d2-40a4-ab94-c91975d19579" />
+                          <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/380617bb-98d2-40a4-ab94-c91975d19579" />
 
 The project follows a four-layer architecture:
+
 1️⃣ ** GUI Layer **
-Built using Tkinter, providing buttons and dialogs for user interaction.                                   
+Built using Tkinter, providing buttons and dialogs for user interaction. 
+
 2️⃣ ** Logic Layer **
 Handles application logic including:
+
 File selection
 Encryption and decryption
 Authentication
 Blockchain transaction recording
+
 3️⃣ ** Cryptographic Engine **
 Implements:
 AES-256 for encryption
 RSA-2048 for key generation
 SHA-256 for hashing
+
 4️⃣ ** Storage & Audit Layer **
 Stores:
 RSA key files (public_key.pem, private_key.pem)
@@ -70,6 +76,7 @@ Decrypt – Decrypt the file using RSA authentication
 Show Blockchain – Display transaction history
 
 📂 **Project Structure**
+
 ** Mobile-Self-Encryption
 │
 ├── main.py
@@ -87,9 +94,10 @@ python main.py
 The GUI window will open and you can start encrypting files.
 
 ** Output **
-      <img width="212" height="483" alt="Screenshot 2026-03-13 120102" src="https://github.com/user-attachments/assets/c98e2526-1e62-4f89-a2a8-be95747a0d0f" />
+                     <img width="212" height="483" alt="Screenshot 2026-03-13 120102" src="https://github.com/user-attachments/assets/c98e2526-1e62-4f89-a2a8-be95747a0d0f" />
 
 🎯 ** Applications **
+
 Personal file protection
 Secure storage of sensitive documents
 Healthcare data protection
@@ -97,6 +105,7 @@ Corporate confidential file management
 Academic and research data security
 
 ✅ ** Advantages **
+
 Strong encryption using modern algorithms
 Efficient chunk-based file processing
 Local execution without internet dependency
@@ -104,7 +113,9 @@ Tamper-evident blockchain logging
 Simple graphical user interface
 
 📜 ** License **
+
     This project is developed for educational and research purposes.
 
 👨‍💻 ** Author **
+
       G. Vamshi
